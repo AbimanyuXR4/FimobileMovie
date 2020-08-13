@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en" class="color-theme-blue">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#2196f3">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+    <title>Fimobile</title>
+    <link rel="stylesheet" href="css/framework7.bundle.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="apple-touch-icon" href="img/Fimobile-icon-square.png">
+    <link rel="icon" href="img/Fimobile-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" >
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel" >
+</head>
+
+<body>
+    <div id="app">
+        <!-- Statusbar overlay element -->
+        <div class="statusbar"></div>
+        <div class="panel panel-left panel-reveal panel-resizable panel-init color-white">
+            <div class="page">
+                <div class="page-content">
+                    <div class="block">
+                        <div class="row ">
+                            <div class="col-auto">
+                                <figure class="avatar avatar-60 border-0"><img src="img/user1.png" alt=""></figure>
+                            </div>
+                            <div class="col pl-0 align-self-center">
+                                <h5 class="my-1">Ammy Jahnson</h5>
+                                <p class="text-mute small mt-1">Work, London, UK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="list links-list nav-list">
+                            <ul>
+                                <li>
+                                    <a href="/homepage/" class="panel-close"><i class="material-icons icons-raised">home</i> Home</a>
+                                </li>
+                                <li>
+                                    <a href="/setting/" class="panel-close"><i class="material-icons icons-raised">brightness_high</i> Setting</a>
+                                </li>
+
+                                <li>
+                                    <a href="/aboutus/" class="panel-close"><i class="material-icons icons-raised">error</i> About Us</a>
+                                </li>
+                                <li>
+                                    <a href="/help/" class="panel-close"><i class="f7-icons icons-raised">wand_stars</i> Help</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="closesidemenu link panel-close"><i class="material-icons icons-raised bg-dark ">close</i></a>
+        <div class="view view-main view-init safe-areas" data-master-detail-breakpoint="800" data-url="/">
+            <div class="row no-gutters loader-screen">
+                <div class="col align-self-center text-white text-align-center">
+                    <img src="img/logo.png" alt="logo">
+                    <h1 class="mt-2 mb-0"><span class="font-weight-light">Fi</span>mobile</h1>
+                    <p class="text-mute text-uppercase small mt-1">HTML Template</p>
+                    <div class="laoderhorizontal">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page page-introduction" data-name="introduction">
+                <div class="page-content">
+                    <!-- Swiper intro -->
+                    <div class="swiper-container swiper-init introduction pt-5" data-pagination='{"el": ".swiper-pagination", "hideOnClick": true}'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide overflow-hidden text-align-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col align-self-center px-3">
+                                            <img src="img/information-graphic1.png" alt="" class="mx-100 my-5">
+                                            <div class="row">
+                                                <div class="col mb-5">
+                                                    <h4>Find amazing movie here</h4>
+                                                    <p>This is free platform to see the best movies</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide overflow-hidden text-align-center">
+                                <div class="container">
+                                    <div class="row ">
+                                        <div class="col align-self-center px-3">
+                                            <img src="img/infomarmation-graphics2.png" alt="" class="mx-100 my-5">
+                                            <div class="row">
+                                                <div class="col mb-5">
+                                                    <h4>See your best movies</h4>
+                                                    <p>It's free, just create you account and enjoy the movie!!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide overflow-hidden text-align-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col align-self-center px-3">
+                                            <img src="img/infomarmation-graphics3.png" alt="" class="mx-100 my-5">
+                                            <div class="row">
+                                                <div class="col mb-5">
+                                                    <h4>For Mobile</h4>
+                                                    <p>This platform is ready to use on your mobile phone</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!-- Swiper intro ends -->
+
+                    <!-- login buttons -->
+                    <div class="block bottom-button-container">
+                        <div class="row">
+                            <div class="col">
+                                <a href="/signin/" class="button button-raised button-fill button-large button-round color-default">Login</a>
+                            </div>
+                            <div class="col">
+                                <a href="/signup/" class="button button-raised button-large button-round color-default">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- login buttons -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Popup Movie -->
+        <div class="popup movie">
+            <div class="page light">
+                <div class="navbar">
+                  <div class="navbar-bg"></div>
+                  <div class="navbar-inner sliding">
+                    <div class="left">
+                      <a href="#" class="link popup-close">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                      </a>
+                    </div>
+                    <div class="title">All Movies</div>
+                  </div>
+                </div>
+                <div class="page-content">
+                  <div class="block block-strong">
+                  </div>
+                  <div class="block">
+                    <div class="row">
+                      <div class="col">
+                        <div class="elevation-demo elevation-1 elevation-hover-24 elevation-active-12 elevation-transition-500" style="background-image: url();">1</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-2">2</div>
+                      </div>
+                      
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="elevation-demo elevation-4">4</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-5">5</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="elevation-demo elevation-7">7</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-8">8</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="elevation-demo elevation-10">10</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-11">11</div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- Categori Popup -->
+        <div class="popup categories">
+        <div class="page light">
+            <div class="navbar">
+              <div class="navbar-bg"></div>
+              <div class="navbar-inner sliding">
+                <div class="left">
+                  <a href="#" class="link popup-close">
+                    <i class="icon icon-back"></i>
+                    <span class="if-not-md">Back</span>
+                  </a>
+                </div>
+                <div class="title">Movies Categories</div>
+              </div>
+            </div>
+            <div class="page-content">
+              <div class="list">
+                <div class="list">
+                    <div class="list-group">
+                        <ul>
+                        <li class="list-group-title">A</li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Action </div>
+                            </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Adventure</div>
+                            </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Animation</div>
+                            </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="list-group">
+                        <ul>
+                        <li class="list-group-title">C</li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Comedy</div>
+                            </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Crime</div>
+                            </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="list-group">
+                        <ul>
+                        <li class="list-group-title">D</li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Documentary</div>
+                            </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Drama</div>
+                            </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="list-group">
+                        <ul>
+                        <li class="list-group-title">F</li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Family</div>
+                            </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Fantasy</div>
+                            </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="list-group">
+                        <ul>
+                        <li class="list-group-title">H</li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">History</div>
+                            </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Horror</div>
+                            </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="list-group">
+                        <ul>
+                        <li class="list-group-title">K</li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Kids</div>
+                            </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="list-group">
+                        <ul>
+                        <li class="list-group-title">M</li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Music</div>
+                            </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Mytery</div>
+                            </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="list-group">
+                        <ul>
+                        <li class="list-group-title">R</li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Reality</div>
+                            </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Romance</div>
+                            </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="list-group">
+                        <ul>
+                        <li class="list-group-title">T</li>
+                        <li>
+                            <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Thriller</div>
+                            </div>
+                            </div>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+        
+        <!-- Popular Movie Popup -->
+        <div class="popup popular">
+            <div class="page light">
+                <div class="navbar">
+                  <div class="navbar-bg"></div>
+                  <div class="navbar-inner sliding">
+                    <div class="left">
+                      <a href="#" class="link popup-close">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                      </a>
+                    </div>
+                    <div class="title">Popular movie</div>
+                  </div>
+                </div>
+                <div class="page-content">
+                  <div class="block block-strong">
+                  </div>
+                  <div class="block">
+                    <div class="row">
+                      <div class="col">
+                        <div class="elevation-demo elevation-1 elevation-hover-24 elevation-active-12 elevation-transition-500" style="background-image: url();">1</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-2">2</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-3">3</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="elevation-demo elevation-4">4</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-5">5</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-6">6</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="elevation-demo elevation-7">7</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-8">8</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-9">9</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="elevation-demo elevation-10">10</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-11">11</div>
+                      </div>
+                      <div class="col">
+                        <div class="elevation-demo elevation-12">12</div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <!-- High Rate Movie Popup -->
+        <div class="popup high-rate">
+            <div class="page light">
+            <div class="navbar">
+                <div class="navbar-bg"></div>
+                <div class="navbar-inner sliding">
+                  <div class="left">
+                      <a href="#" class="link popup-close">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                      </a>
+                    </div>
+                  <div class="title">High Rate Movie</div>
+                </div>
+              </div>
+              <div class="page-content">
+                <div class="block">
+                </div>
+                <div class="list sortable">
+                  <ul>
+                    <li>
+                      <div class="item-content">
+                        <div class="item-media"><figure class="avatar avatar-30"><img src="img/logo.png" alt=""></figure></div>
+                        <div class="item-inner">
+                          <div class="item-title">1 Jenna Smith</div>
+                          <div class="item-after">CEO</div>
+                        </div>
+                      </div>
+                      <div class="sortable-handler"></div>
+                    </li>
+                    <li>
+                      <div class="item-content">
+                        <div class="item-media"><figure class="avatar avatar-30"><img src="img/logo.png" alt=""></figure></div>
+                        <div class="item-inner">
+                          <div class="item-title">2 John Doe</div>
+                          <div class="item-after">Director</div>
+                        </div>
+                      </div>
+                      <div class="sortable-handler"></div>
+                    </li>
+                    <li>
+                      <div class="item-content">
+                        <div class="item-media"><figure class="avatar avatar-30"><img src="img/logo.png" alt=""></figure></div>
+                        <div class="item-inner">
+                          <div class="item-title">3 John Doe</div>
+                          <div class="item-after">Developer</div>
+                        </div>
+                      </div>
+                      <div class="sortable-handler"></div>
+                    </li>
+                    <li>
+                      <div class="item-content">
+                        <div class="item-media"><figure class="avatar avatar-30"><img src="img/logo.png" alt=""></figure></div>
+                        <div class="item-inner">
+                          <div class="item-title">4 Aaron Darling</div>
+                          <div class="item-after">Manager</div>
+                        </div>
+                      </div>
+                      <div class="sortable-handler"></div>
+                    </li>
+                    <li>
+                      <div class="item-content">
+                        <div class="item-media"><figure class="avatar avatar-30"><img src="img/logo.png" alt=""></figure></div>
+                        <div class="item-inner">
+                          <div class="item-title">5 Calvin Johnson</div>
+                          <div class="item-after">Accounter</div>
+                        </div>
+                      </div>
+                      <div class="sortable-handler"></div>
+                    </li>
+                    <li>
+                      <div class="item-content">
+                        <div class="item-media"><figure class="avatar avatar-30"><img src="img/logo.png" alt=""></figure></div>
+                        <div class="item-inner">
+                          <div class="item-title">6 John Smith</div>
+                          <div class="item-after">SEO</div>
+                        </div>
+                      </div>
+                      <div class="sortable-handler"></div>
+                    </li>
+                    <li>
+                      <div class="item-content">
+                        <div class="item-media"><figure class="avatar avatar-30"><img src="img/logo.png" alt=""></figure></div>
+                        <div class="item-inner">
+                          <div class="item-title">7 Chloe</div>
+                          <div class="item-after">Manager</div>
+                        </div>
+                      </div>
+                      <div class="sortable-handler"></div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Best Movie Popup -->
+        <div class="popup best-movie">
+            <div class="view">
+                <div class="page">
+                    <div class="page-content text-align-center">
+                        <div class="block">
+                            <h5><strong>A Story</strong></h5>
+                            <h6>.</h6>
+                            <img src="img/mountains.jpg" alt="logo" class="logo-small" style="border-radius: 10px;">
+
+                            <div class="list no-margin bg-none">
+                                <ul class="no-border">
+                                    <li class="item-content item-input no-padding-horizontal">
+                                        <div class="item-inner no-padding-horizontal">
+                                            <!-- "item-floating-label" class on item title -->
+                                            <div class="item-input-wrap">
+                                                <h6>"A Story" merupakan sebuah kisah yang mengkisahkan sebuah cerita
+                                                    untuk anak cucunya di masa datang bahwa ada sebuah kisah yang 
+                                                    menceritakan sebuah cerita.
+                                                </h6>
+                                                <h6>Narator : Abim</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <br>
+                            <button type="button" class="button button-raised button-fill button-large button-round color-default popup-close" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- And add money modal popup-->
+        <div class="popup addmoney">
+            <div class="view">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="right">
+                                <!-- Link to close popup -->
+                                <a class="link popup-close">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content text-align-center">
+                        <div class="block">
+                            <img src="img/infomarmation-graphics2.png" alt="logo" class="logo-small">
+
+                            <div class="list no-margin bg-none">
+                                <ul class="no-border">
+                                    <li class="item-content item-input no-padding-horizontal">
+                                        <div class="item-inner no-padding-horizontal">
+                                            <!-- "item-floating-label" class on item title -->
+                                            <div class="item-title item-floating-label">Enter amount</div>
+                                            <div class="item-input-wrap">
+                                                <input type="text" name="Enter amount">
+                                                <span class="input-clear-button"></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="text-mute">You will be redirected to payment gatway to procceed further. Enter amount in USD.</p>
+                            <br>
+                            <button type="button" class="button button-raised button-fill button-large button-round color-default popup-close" data-dismiss="modal">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- And pay money modal popup-->
+        <div class="popup paymoney">
+            <div class="view">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="title">Pay</div>
+                            <div class="right">
+                                <!-- Link to close popup -->
+                                <a class="link popup-close">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="block">
+                            <div class="list">
+                                <ul>
+                                    <li>
+                                        <label class="item-radio item-content">
+                                            <input type="radio" name="demo-radio" value="bill" />
+                                            <i class="icon icon-radio"></i>
+                                            <div class="item-inner">
+                                                <div class="item-title">To Bill</div>
+                                            </div>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="item-radio item-content">
+                                            <input type="radio" name="demo-radio" value="person" checked />
+                                            <i class="icon icon-radio"></i>
+                                            <div class="item-inner">
+                                                <div class="item-title">To Person</div>
+                                            </div>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card shadow border-0 mb-3">
+                                <div class="card-content card-content-padding">
+                                    <div class="row align-items-center">
+                                        <div class="col-auto pr-0">
+                                            <div class="avatar avatar-50 no-shadow border-0">
+                                                <img src="img/user2.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <h6 class="font-weight-normal mb-1 mt-0">Ms. Shivani Dilux</h6>
+                                            <p class="text-mute small text-secondary mt-1">"Thank you for your purchase with our shop and making online payment."</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list no-margin bg-none">
+                                <ul class="no-border">
+                                    <li class="item-content item-input no-padding-horizontal">
+                                        <div class="item-inner no-padding-horizontal">
+                                            <!-- "item-floating-label" class on item title -->
+                                            <div class="item-title item-floating-label">Enter amount</div>
+                                            <div class="item-input-wrap">
+                                                <input type="text" name="Enter amount">
+                                                <span class="input-clear-button"></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="text-mute  text-align-center">You will be redirected to payment gatway to procceed further. Enter amount in USD.</p>
+                            <br>
+                            <button type="button" class="button button-raised button-fill button-large button-round color-default popup-close" data-dismiss="modal">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/framework7.bundle.min.js"></script>
+
+    <script src="js/chartjs/Chart.min.js"></script>
+    <script src="js/chartjs/utils.js"></script>
+
+    <script src="js/routes.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+<script>
+    
+</script>
+</html>
