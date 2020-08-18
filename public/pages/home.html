@@ -1,3 +1,4 @@
+
 <body>
 <div class="page page-homepage light" data-name="homepage">
     <div class="navbar">
@@ -9,94 +10,25 @@
                 </a>
             </div>
             <div class="title"><img src="img/logo-header.png" alt="" class="header-logo"> </div>
-            <div class="right">
-                <a class="link icon-only searchbar-enable" data-searchbar=".searchbar-components">
-                    <i class="icon material-icons">search</i>
-                </a>
-            </div>
-
-            <form data-search-container=".components-list" data-search-in="a" class="searchbar searchbar-expandable searchbar-components searchbar-init">
-                <div class="searchbar-inner">
-                    <div class="searchbar-input-wrap">
-                        <input type="search" placeholder="Search Movie Here" />
-                        <i class="searchbar-icon"></i>
-                        <span class="input-clear-button"></span>
-                    </div>
-                    <span class="searchbar-disable-button if-not-aurora"></span>
-                </div>
-            </form>
+            
         </div>
     </div>
     <div class="toolbar tabbar toolbar-bottom o-visible">
         <div class="toolbar-inner o-visible tabs-max-width">
             <a href="#tab-1" class="tab-link tab-link-active"><i class="material-icons">home</i></a>
-            <a href="#tab-2" class="tab-link"><i class="material-icons">account_circle</i></a>
+            <a href="#tab-2" class="tab-link"><i class="material-icons">search</i></a>
+            <a href="#tab-3" class="tab-link"><i class="material-icons">account_circle</i></a>
         </div>
     </div>
 
     <div class="tabs">
         <div id="tab-1" class="page-content tab tab-active">
             <div class="block">
-                <h5><strong>Best movie of the year</strong></h5>
                 <div class="page-content" style="padding: 0px;">
-                    <div data-pagination='{"el": ".swiper-pagination", "hideOnClick": true}' class="swiper-container swiper-init demo-swiper">
-                      <div class="swiper-pagination"></div>
-                      <div class="swiper-wrapper">
                         <a href="" class="swiper-slide text-align-center popup-open" data-popup=".best-movie">
-                            <div class="swiper-slide card bg-template shadow mt-0 h-190" style="background-image: url(../img/lock.jpg);background-size: cover;"></div>
+                            <div class="swiper-slide card bg-template shadow pt-0 h-190" style="background-image: url(../img/lock.jpg);background-size: cover;"></div>
                         </a>
-                        <a href="" class="swiper-slide text-align-center popup-open" data-popup=".best-movie">
-                            <div class="swiper-slide card bg-template shadow mt-0 h-190" style="background-image: url(../img/lock.jpg);background-size: cover;"></div>
-                        </a>
-                        <a href="" class="swiper-slide text-align-center popup-open" data-popup=".best-movie">
-                            <div class="swiper-slide card bg-template shadow mt-0 h-190" style="background-image: url(../img/lock.jpg);background-size: cover;"></div>
-                        </a>
-                        <a href="" class="swiper-slide text-align-center popup-open" data-popup=".best-movie">
-                            <div class="swiper-slide card bg-template shadow mt-0 h-190" style="background-image: url(../img/lock.jpg);background-size: cover;"></div>
-                        </a>
-                        <a href="" class="swiper-slide text-align-center popup-open" data-popup=".best-movie">
-                            <div class="swiper-slide card bg-template shadow mt-0 h-190" style="background-image: url(../img/lock.jpg);background-size: cover;"></div>
-                        </a>
-                      </div>
-                    </div>
                   </div>
-            </div>
-            <div class="block">
-                <div class="row">
-                    <div class="swiper-container icon-slide swiper-init" data-space-between="0" data-slides-per-view="auto">
-                        <div class="swiper-wrapper">
-                            <a href="" class="swiper-slide text-align-center popup-open" data-popup=".movie">
-                                <div class="avatar avatar-50 no-shadow border-0 link">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="material-icons text-template">movie</i>
-                                </div>
-                                <p class="small mt-2">All Movies</p>
-                            </a>
-                            <a href="" class="swiper-slide text-align-center popup-open" data-popup=".categories">
-                                <div class="avatar avatar-50 no-shadow border-0 link">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="f7-icons">rectangle_stack_fill</i>
-                                </div>
-                                <p class="small mt-2">Category</p>
-                            </a>
-                            <a href="" class="swiper-slide text-align-center popup-open" data-popup=".popular">
-                                <div class="avatar avatar-50 no-shadow border-0 link">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="f7-icons">chart_bar</i>
-                                </div>
-                                <p class="small mt-2">Popular</p>
-                            </a>
-                            <a href="" class="swiper-slide text-align-center">
-                                <div class="avatar avatar-50 no-shadow border-0 link popup-open" data-popup=".high-rate">
-                                    <div class="overlay bg-template"></div>
-                                    <i class="f7-icons">capslock_fill</i>
-                                </div>
-                                <p class="small mt-2">High Rate</p>
-                            </a>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
             </div>
             <h6 class="block-title"><strong>Popular Movie</strong></h6>
                 <div class="block">
@@ -108,8 +40,9 @@
                                     <figure class="background">
                                         <img src="img/product2.jpg" alt="">
                                     </figure>
+                                    <!-- button button-rounded-36 shadow-sm button-fab button-fill color-default -->
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 button-fab shadow-sm button-fill color-default popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h3 class="small mt-0">Movie Name</h3>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -121,7 +54,7 @@
                                         <img src="img/product3.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -133,7 +66,7 @@
                                         <img src="img/product2.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -145,7 +78,7 @@
                                         <img src="img/product3.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -157,7 +90,7 @@
                                         <img src="img/product2.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -169,7 +102,7 @@
                                         <img src="img/product3.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -191,7 +124,7 @@
                                         <img src="img/product2.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h3 class="small mt-0">Movie Name</h3>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -203,7 +136,7 @@
                                         <img src="img/product3.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -215,7 +148,7 @@
                                         <img src="img/product2.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -227,7 +160,7 @@
                                         <img src="img/product3.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -239,7 +172,7 @@
                                         <img src="img/product2.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -251,7 +184,7 @@
                                         <img src="img/product3.jpg" alt="">
                                     </figure>
                                     <div class="card-content card-content-padding">
-                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                        <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                         <h5 class="small mt-0">Movie Name</h5>
                                         <p class="text-mute small">By Movie Maker</p>
                                     </div>
@@ -273,7 +206,7 @@
                                     <img src="img/product2.jpg" alt="">
                                 </figure>
                                 <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                     <h3 class="small mt-0">Movie Name</h3>
                                     <p class="text-mute small">By Movie Maker</p>
                                 </div>
@@ -285,7 +218,7 @@
                                     <img src="img/product3.jpg" alt="">
                                 </figure>
                                 <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                     <h5 class="small mt-0">Movie Name</h5>
                                     <p class="text-mute small">By Movie Maker</p>
                                 </div>
@@ -297,7 +230,7 @@
                                     <img src="img/product2.jpg" alt="">
                                 </figure>
                                 <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                     <h5 class="small mt-0">Movie Name</h5>
                                     <p class="text-mute small">By Movie Maker</p>
                                 </div>
@@ -309,7 +242,7 @@
                                     <img src="img/product3.jpg" alt="">
                                 </figure>
                                 <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                     <h5 class="small mt-0">Movie Name</h5>
                                     <p class="text-mute small">By Movie Maker</p>
                                 </div>
@@ -321,7 +254,7 @@
                                     <img src="img/product2.jpg" alt="">
                                 </figure>
                                 <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                     <h5 class="small mt-0">Movie Name</h5>
                                     <p class="text-mute small">By Movie Maker</p>
                                 </div>
@@ -333,7 +266,7 @@
                                     <img src="img/product3.jpg" alt="">
                                 </figure>
                                 <div class="card-content card-content-padding">
-                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default swiper-slide text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
+                                    <a href="" class="button button-rounded-36 shadow-sm button-fab button-fill color-default text-align-center popup-open" data-popup=".best-movie"><i class="material-icons md-18">arrow_forward</i></a>
                                     <h5 class="small mt-0">Movie Name</h5>
                                     <p class="text-mute small">By Movie Maker</p>
                                 </div>
@@ -346,6 +279,169 @@
             </div>
         </div>
         <div id="tab-2" class="page-content tab">
+            <div class="page light">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+            <div class="left">
+                <a href="#" class="link back">
+                <i class="icon icon-back"></i>
+                <span class="if-not-md">Back</span>
+                </a>
+            </div>
+            <div class="title">Searchbar</div>
+            <div class="subnavbar">
+                <form data-search-container=".search-list" data-search-in=".item-title" class="searchbar searchbar-init">
+                <div class="searchbar-inner">
+                    <div class="searchbar-input-wrap">
+                    <input type="search" placeholder="Search" style="width: 50vh;"/>
+                    <i class="searchbar-icon"></i>
+                    <span class="input-clear-button"></span>
+                    </div>
+                    <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+                </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    <div class="page-content">
+        <div class="searchbar-backdrop"></div>
+
+        <div class="list simple-list searchbar-not-found">
+            <ul>
+                <li>Nothing found</li>
+            </ul>
+        </div>
+    <div class="list search-list searchbar-found">
+      <ul>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Acura</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Audi</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">BMW</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Cadillac </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Chevrolet </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Chrysler </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Dodge </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Ferrari </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Ford </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">GMC </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Honda</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Hummer</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Hyundai</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Infiniti </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Isuzu </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Jaguar </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Jeep </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Kia</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Lamborghini </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Land Rover</div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Lexus </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Lincoln </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Lotus </div>
+          </div>
+        </li>
+        <li class="item-content">
+          <div class="item-inner">
+            <div class="item-title">Mazda</div>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+        </div>
+        <div id="tab-3" class="page-content tab">
             <div class="block">
                 <div class="card bg-template shadow mt-4 h-190">
                     <div class="card-content card-content-padding">
@@ -417,4 +513,14 @@
         </div>
     </div>
 </div>
+
+<script>
+    return{
+        data:function(){
+            const result = fetch('https://api.themoviedb.org/3/movie/popular?api_key=6f5c15a5026f574a44ea16fcbc73b0c6&language=en-US&page=1').then(res=>res.json());
+                console.log(result);
+        }
+    }
+</script>
+
 </body>
