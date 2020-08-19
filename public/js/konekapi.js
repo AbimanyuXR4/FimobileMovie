@@ -1,7 +1,6 @@
 const result = fetch('https://api.themoviedb.org/3/movie/popular?api_key=6f5c15a5026f574a44ea16fcbc73b0c6&language=en-US&page=1').then(res=>res.json());
 
 console.log(result);
-
 const API_URL = 'https://api.themoviedb.org/3/';
 const API_KEY = '6f5c15a5026f574a44ea16fcbc73b0c6';
 
@@ -35,7 +34,7 @@ const POSTER_SIZE = 'w500';
       totalPages: result.total_pages,
     };
   };
-  
+
   const fetchMovie = async movieId => {
     const endpoint = MOVIE_ENDPOINT(movieId);
     const creditsEndpoint = CREDITS_ENDPOINT(movieId);

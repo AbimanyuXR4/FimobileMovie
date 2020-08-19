@@ -68,6 +68,16 @@ var routes = [
     path: '/accordion/',
     url: './pages/accordion.html',
   },
+  //Movie Page
+  {
+    path: '/movtemp/',
+    componentUrl: './pages/movietemp.html'
+  },
+  //Detail Movie
+  {
+    path: '/detMov/',
+    componentUrl: './pages/detail.html'
+  },
   // framework page
   {
     path: '/framework/',
