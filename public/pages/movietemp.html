@@ -59,10 +59,9 @@
             </form>
             <div class="block">
                 <div class="row text-align-center mt-4 color-black">
-                    
                     <div class="col">
                         <div class="card shadow border-0 mb-4" >
-                            <a href="/" @click="OI({{movies.movies[0].id}})" class="popup-open" data-popup=".best-movie">
+                            <a @click="OI({{movies.movies[0].id}})" class="popup-open" data-popup=".movie1">
                                 <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.heroImage.poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
                             </a>
                         </div>
@@ -70,18 +69,17 @@
                     
                     <div class="col">
                         <div class="card shadow border-0 mb-4" >
-                            <a href="/" @click="OI({{movies.movies[1].id}})" class="popup-open" data-popup=".best-movie">
+                            <a @click="OI({{movies.movies[1].id}})" class="popup-open" data-popup=".movie2">
                                 <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[1].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
                             </a>
                         </div>
                     </div>
 
                 </div>
-                <div class="row text-align-center color-black">
-                    
+                <div class="row text-align-center color-black"> 
                     <div class="col">
                         <div class="card shadow border-0 mb-4" >
-                            <a href="/" @click="OI({{movies.movies[2].id}})" class="popup-open" data-popup=".best-movie">
+                            <a @click="OI({{movies.movies[2].id}})" class="popup-open" data-popup=".movie3">
                                 <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[2].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
                             </a>
                         </div>
@@ -89,8 +87,144 @@
 
                     <div class="col">
                         <div class="card shadow border-0 mb-4">
-                            <a href="/" @click="OI({{movies.movies[3].id}})" class="popup-open" data-popup=".best-movie">
+                            <a @click="OI({{movies.movies[3].id}})" class="popup-open" data-popup=".movie4">
                                 <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[3].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-align-center color-black"> 
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" >
+                            <a @click="OI({{movies.movies[4].id}})" class="popup-open" data-popup=".movie5">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[4].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4">
+                            <a @click="OI({{movies.movies[5].id}})" class="popup-open" data-popup=".movie6">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[5].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-align-center color-black"> 
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" >
+                            <a @click="OI({{movies.movies[6].id}})" class="popup-open" data-popup=".movie7">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[6].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4">
+                            <a @click="OI({{movies.movies[7].id}})" class="popup-open" data-popup=".movie8">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[7].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-align-center color-black"> 
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" >
+                            <a @click="OI({{movies.movies[8].id}})" class="popup-open" data-popup=".movie9">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[8].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4">
+                            <a @click="OI({{movies.movies[9].id}})" class="popup-open" data-popup=".movie10">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[9].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-align-center color-black"> 
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" >
+                            <a @click="OI({{movies.movies[10].id}})" class="popup-open" data-popup=".movie11">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[10].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4">
+                            <a @click="OI({{movies.movies[11].id}})" class="popup-open" data-popup=".movie12">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[11].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-align-center color-black"> 
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" >
+                            <a @click="OI({{movies.movies[12].id}})" class="popup-open" data-popup=".movie13">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[12].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4">
+                            <a @click="OI({{movies.movies[13].id}})" class="popup-open" data-popup=".movie14">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[13].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-align-center color-black"> 
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" >
+                            <a @click="OI({{movies.movies[14].id}})" class="popup-open" data-popup=".movie15">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[14].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4">
+                            <a @click="OI({{movies.movies[15].id}})" class="popup-open" data-popup=".movie16">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[15].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-align-center color-black"> 
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" >
+                            <a @click="OI({{movies.movies[16].id}})" class="popup-open" data-popup=".movie17">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[16].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4">
+                            <a @click="OI({{movies.movies[17].id}})" class="popup-open" data-popup=".movie18">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[17].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-align-center color-black"> 
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4" >
+                            <a @click="OI({{movies.movies[18].id}})" class="popup-open" data-popup=".movie19">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[18].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow border-0 mb-4">
+                            <a @click="OI({{movies.movies[19].id}})" class="popup-open" data-popup=".movie20">
+                                <div class="card-content card-content-padding h-190" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[19].poster_path}});background-size: cover; background-position: center;border-radius: 10px;"></div>
                             </a>
                         </div>
                     </div>
@@ -99,7 +233,2515 @@
         </div>
       </div>
     </div>
+
+    <!-- Movie1 -->
+    <div class="popup movie1">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[0].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[0].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[0].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[0].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[0].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[0].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[0].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- Movie2 -->
+    <div class="popup movie2">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[1].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[1].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[1].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[1].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[1].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[1].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[1].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Movie3 -->
+    <div class="popup movie3">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[2].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[2].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[2].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[2].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[2].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[2].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[2].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Movie4 -->
+    <div class="popup movie4">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[3].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[3].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[3].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[3].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[3].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[3].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[3].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie5 -->
+    <div class="popup movie5">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[4].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[4].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[4].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[4].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[4].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[4].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[4].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie6 -->
+    <div class="popup movie6">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[5].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[5].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[5].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[5].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[5].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[5].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[5].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie7 -->
+    <div class="popup movie7">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[6].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[6].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[6].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[6].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[6].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[6].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[6].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie8 -->
+    <div class="popup movie8">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[7].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[7].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[7].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[7].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[7].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[7].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[7].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie9 -->
+    <div class="popup movie9">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[8].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[8].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[8].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[8].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[8].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[8].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[8].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie10 -->
+    <div class="popup movie10">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[9].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[9].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[9].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[9].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[9].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[9].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[9].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie11 -->
+    <div class="popup movie11">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[10].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[10].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[10].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[10].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[10].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[10].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[10].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie12 -->
+    <div class="popup movie12">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[11].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[11].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[11].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[11].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[11].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[11].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[11].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie13 -->
+    <div class="popup movie13">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[12].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[12].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[12].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[12].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[12].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[12].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[4].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie14 -->
+    <div class="popup movie14">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[13].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[13].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[13].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[13].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[13].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[13].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[13].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie15 -->
+    <div class="popup movie15">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[14].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[14].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[14].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[14].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[14].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[14].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[14].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie16 -->
+    <div class="popup movie16">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[15].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[15].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[15].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[15].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[15].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[15].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[15].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie17 -->
+    <div class="popup movie17">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[16].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[16].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[16].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[16].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[16].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[16].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[16].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie18 -->
+    <div class="popup movie18">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[17].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[17].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[17].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[17].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[17].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[17].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[17].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie19 -->
+    <div class="popup movie19">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[18].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[18].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[18].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[18].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[18].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[18].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[18].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Movie20 -->
+    <div class="popup movie20">
+        <div class="view">
+            <div class="page">
+                <div class="page-content text-align-center">
+                    <div class="block">
+                        <div class="card shadow mt-4 h-200" style="background: url(http://image.tmdb.org/t/p/w1280{{movies.movies[19].backdrop_path}}); background-size: cover;">
+                            <div class="card-content card-content-padding">                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block top-100">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="card-content card-content-padding" style="background: url(http://image.tmdb.org/t/p/w500{{movies.movies[19].poster_path}});background-size: cover;width: 50px;height: 80px; background-position: center;border-radius: 10px;"></div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>{{movies.movies[19].title}}</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="card-content card-content-padding bg-none">
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rating</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[19].vote_average}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Rilis</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[19].release_date}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Duration</strong></p>
+                                    </div>
+                                    <div class="col border-left-dotted">
+                                        <p>{{movies.movies[19].time}}</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p><strong>Overview</strong></p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-align-left">
+                                        <p>{{movies.movies[19].overview}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Actor -->
+                    <div class="block">
+                        <div class="card mb-0 shadow">
+                            <div class="card-content border-bottom">
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-auto">
+                                        <h4>Movie Actors</h4>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <div class="row text-align-center mt-4 color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4" >
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-align-center color-black">
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card shadow border-0 mb-4">
+                                            <div class="card-content card-content-padding h-190" style="background-image: url(./images/no_image.jpg); background-size: cover;border-radius: 9px;">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="button" class="button button-raised button-fill button-large color-default popup-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    
 </template>
 
 <script>
@@ -125,7 +2767,6 @@ const POSTER_SIZE = 'w500';
             try {
                     movies = await fetchMovies(movies, url_Api);
                     console.log(movies);
-                    console.log(movies.heroImage.id)
                 } catch (err) {
                     console.log('error');
                 }
